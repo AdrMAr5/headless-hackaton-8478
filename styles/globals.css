@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #004a7c; /* Deep Ocean Blue */
+  --secondary-color: #008c8e; /* Teal */
+  --accent-color: #f7b538; /* Sunset Gold */
+  --text-color-dark: #2c3e50; /* Slate Grey */
+  --text-color-light: #f4f7f6;
+  --background-color: #ffffff;
+  --light-grey: #f4f7f6;
+  --border-color: #e1e1e1;
+  --font-heading: 'Lora', serif;
+  --font-body: 'Lato', sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--background-color);
+  color: var(--text-color-dark);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 70rem; /* A bit wider for an expansive feel */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.5rem;
+}

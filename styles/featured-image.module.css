@@ -1,0 +1,22 @@
+.image {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.link {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.link:hover {
+  opacity: 0.9;
+}
+
+.wrapper {
+  height: 20rem;
+  margin: 2.25rem 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
